@@ -11,13 +11,13 @@ import { fadeIn } from "../variants";
 
 const Banner = () => {
   return (
-    <section id="home" className="min-h-[30vh] py-10">
+    <section id="home" className="min-h-[30vh] h-[100%] py-14">
       <div
         key="sub-container"
-        className="container flex  items-center justify-between flex-wrap mx-auto"
+        className="w-[100%] bg-slate-600 container flex flex-col md:flex-row items-center justify-between  mx-auto"
       >
         {/* text */}
-        <div className=" md:h-[200px] md:w-[80%] mx-auto lg:w-[40%] w-[100%] ">
+        <div className=" md:h-[250px]    mx-auto lg:w-[40%] w-[100%] ">
           <motion.h1
             variants={fadeIn("up", 0.3)}
             initial="hidden"
@@ -33,7 +33,7 @@ const Banner = () => {
             initial="hidden"
             whileInView={"show"}
             key="animate"
-            className="mb-[30px] text-cyan-50 text-center  text-[12px]  lg:text-[19px] font-secondary font-semibold leading-1"
+            className="mb-[30px] text-cyan-50 text-center  text-[12px]  lg:text-[15px] font-secondary font-semibold leading-1"
           >
             <TypeAnimation
               sequence={[
@@ -59,7 +59,7 @@ const Banner = () => {
             variants={fadeIn("up", 0.5)}
             initial="hidden"
             whileInView={"show"}
-            className=" flex w-[280px] flex-row justify-between mx-auto items-center"
+            className=" flex w-[280px] flex-row justify-between  mx-auto items-center"
           >
             <Link to="contact" spy={true} smooth={true}>
               {" "}
@@ -87,10 +87,10 @@ const Banner = () => {
           initial="hidden"
           whileInView={"show"}
           key="image"
-          className="mx-auto mt-[20px]"
+          className=" mx-auto mt-[20px]"
         >
           <img
-            className="w-[400px]"
+            className="lg:w-[400px]"
             src="https://i.ibb.co/tCfpzhn/profile.png"
             alt=""
           />

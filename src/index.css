@@ -60,6 +60,6 @@
   }
   .section{
     @apply lg:h-screen
-    /* lg:py-24 lg:h-screen flex items-center */
+   /* @apply lg:py-24 lg:h-screen flex items-center */
   }
 }
