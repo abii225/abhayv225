@@ -9,6 +9,7 @@ import About from "./Components/About";
 import Skills from "./Components/Skills";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -24,7 +25,9 @@ function App() {
         <Skills />
         <Projects />
         <Contact />
-        <div className="h-[4000px]"></div>
+
+        <div className="h-[150px]"></div>
+        <Footer />
       </div>
     </>
   );

@@ -1,9 +1,14 @@
 import React from "react";
-
+import { fadeIn } from "../variants";
+import { motion } from "framer-motion";
 const Projects = () => {
   return (
-    <section id="projects" className="section  mt-8 py-5">
-      <div
+    <section id="projects" className="section  mt-[100px] py-5">
+      <motion.div
+        variants={fadeIn("right", 0.3)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: false, amount: 0.3 }}
         key="container"
         className="py-12 w-[80%] mx-auto grid grid-cols-1  lg:grid-cols-2  gap-6"
       >
@@ -40,7 +45,7 @@ const Projects = () => {
             src="https://camo.githubusercontent.com/1ecb68d4031c103ead37e3f9114d1834bc1a8f31064c44aac723103f8d393840/68747470733a2f2f6465762d746f2d75706c6f6164732e73332e616d617a6f6e6177732e636f6d2f75706c6f6164732f61727469636c65732f6b787078317a757773696734686c306967706b762e706e67"
           />
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };

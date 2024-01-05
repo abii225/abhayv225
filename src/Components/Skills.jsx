@@ -4,9 +4,10 @@ import Frontend from "./Frontend";
 import Tools from "./Tools";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
+import Github from "./Github";
 const Skills = () => {
   return (
-    <div id="skills" className="section bg-slate-600 min-h-[100vh] py-3 mt-4">
+    <div id="skills" className="section  h-[100%] py-3 mt-4">
       <div key="container" className="">
         <motion.h1
           variants={fadeIn("up", 0.3)}
@@ -28,6 +29,7 @@ const Skills = () => {
           My ToolKit
         </h1>
         <Tools />
+        <Github />
       </div>
     </div>
   );
