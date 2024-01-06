@@ -14,7 +14,7 @@ const Banner = () => {
     <section id="home" className="min-h-[30vh] h-[100%] py-14">
       <div
         key="sub-container"
-        className="w-[100%] bg-slate-600 container flex flex-col md:flex-row items-center justify-between  mx-auto"
+        className="w-[100%] bg-body container flex flex-col md:flex-row items-center justify-between  mx-auto"
       >
         {/* text */}
         <div className=" md:h-[250px]    mx-auto lg:w-[40%] w-[100%] ">
@@ -63,7 +63,7 @@ const Banner = () => {
           >
             <Link to="contact" spy={true} smooth={true}>
               {" "}
-              <button className="btn btn-sm md:btn-lg text-white sm:mb-5px">
+              <button className="btn btn-sm md:btn-lg text-white mb-[10px] md:mb-0">
                 Contact me
               </button>
             </Link>

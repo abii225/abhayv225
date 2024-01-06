@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-slate-600">
+      <div className="bg-body">
         {/* <h1 className="text-3xl font-bold underline">Hello world!</h1> */}
         <Header />
         <Banner />

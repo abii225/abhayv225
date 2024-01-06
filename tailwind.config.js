@@ -26,6 +26,9 @@ export default {
       colors: {
         primary: "#0a0a0a",
         accent: "#B809C3",
+        icon: "#4942E4",
+        body: "#11009E",
+        iconBG: "#E6B9DE",
       },
     },
   },

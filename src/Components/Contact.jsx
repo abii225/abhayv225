@@ -62,7 +62,7 @@ const Contact = () => {
       );
   };
   return (
-    <div id="contact" className="mt-[150px] pt-[50px]">
+    <div id="contact" className="bg-body mt-[150px] pt-[50px]">
       <div
         variants={fadeIn("right", 0.3)}
         initial="hidden"

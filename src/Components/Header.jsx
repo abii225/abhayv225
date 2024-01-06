@@ -15,7 +15,7 @@ const Header = () => {
 
     // Set the link's attributes
     // D:\MASAI\abhayv225\src\assets\Abhay-v-Resume.pdf
-    link.href = "./assets/Abhay-v-Resume.pdf"; // Replace with the actual path to your resume PDF
+    link.href = "./assets/Abhay-v-Resume"; // Replace with the actual path to your resume PDF
     link.target = "_blank";
     link.download = "Abhay-v-Resume"; // Replace with the desired file name
 
@@ -29,7 +29,7 @@ const Header = () => {
     document.body.removeChild(link);
   };
   return (
-    <section className="py-1 px-6">
+    <section className="py-1 px-6 bg-body">
       <div className="flex  justify-between items-center ">
         {/* logo */}
         <a href="#about">

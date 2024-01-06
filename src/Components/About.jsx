@@ -22,7 +22,7 @@ const About = () => {
 
     // Set the link's attributes
     // Abhay - v - Resume.pdf;
-    link.href = "./assets/myresume"; // Replace with the actual path to your resume PDF
+    link.href = "./assets/myresume.pdf"; // Replace with the actual path to your resume PDF
     link.target = "_blank";
     link.download = "Abhay-V-Resume.pdf"; // Replace with the desired file name
 
@@ -38,7 +38,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="h-[140vh] bg-slate-600  mb-[150px] md:mb-[20px] mt-[50px]"
+      className="h-[140vh] bg-body  mb-[150px] md:mb-[20px] mt-[50px]"
       ref={ref}
     >
       <div key="container" className="container mx-auto ">
