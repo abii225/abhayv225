@@ -41,6 +41,11 @@
   border-radius: 100%;
 }
 
+.custom-popup-class {
+  width: 30% !important;
+  /* You can adjust the height, padding, or any other styles as needed */
+}
+
 @layer base{
 
    body {

@@ -59,22 +59,24 @@ const Banner = () => {
             variants={fadeIn("up", 0.5)}
             initial="hidden"
             whileInView={"show"}
-            className=" flex w-[280px] flex-row justify-between  mx-auto items-center"
+            className=" flex w-[280px] flex-col md:flex-row justify-between  mx-auto items-center"
           >
             <Link to="contact" spy={true} smooth={true}>
               {" "}
-              <button className="btn btn-lg">Contact me</button>
+              <button className="btn btn-sm md:btn-lg text-white sm:mb-5px">
+                Contact me
+              </button>
             </Link>
             <div key="contact-links" className="w-[100px] flex justify-evenly">
-              <a href="">
+              <a href="https://www.linkedin.com/in/abhay-v-935738243/">
                 {" "}
                 <FaLinkedin className="bg-white w-[30px] h-[30px] text-blue-700 rounded-md" />{" "}
               </a>
-              <a href="">
+              <a href="https://github.com/abii225">
                 {" "}
                 <FaGithub className="bg-white w-[30px] h-[30px] rounded-md" />{" "}
               </a>
-              <a href="">
+              <a href="mailto:abhayv225@gmail.com" spy={true} smooth={true}>
                 {" "}
                 <SiGmail className="bg-white w-[30px] h-[30px] text-red-600 rounded-md" />{" "}
               </a>

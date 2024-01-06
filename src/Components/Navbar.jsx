@@ -9,10 +9,11 @@ import {
 import { BiCodeAlt } from "react-icons/bi";
 import { IoMdContact } from "react-icons/io";
 import { Link } from "react-scroll";
+
 const Navbar = () => {
   return (
     <nav className="fixed bottom-6 lg:bottom-12  w-full  overflow-hidden mix-blend-normal">
-      <div className="container mx-auto ">
+      <div className="container w-[100%] mx-auto ">
         <div className="w-full bg-slate-500 h-[60px] backdrop-blur-2xl rounded-full max-w-[500px] mx-auto px-5 flex justify-between align-middle text-2xl text-white">
           <Link
             to="home"
